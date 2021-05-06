@@ -21,3 +21,6 @@ def flip_bool(b):
 	    return 0
     else:
         return 1
+
+def add_binary(a, b):
+	return bin(a+b)[2:]
