@@ -30,3 +30,6 @@ def flip(y):
 
 def is_empty(dictionary):
 	return len(dictionary) == 0
+
+def has_key(dictionary, key):
+	return key in dictionary
