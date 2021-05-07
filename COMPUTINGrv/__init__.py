@@ -27,3 +27,6 @@ def add_binary(a, b):
 
 def flip(y):
 	return int(not bool(y))
+
+def is_empty(dictionary):
+	return len(dictionary) == 0
