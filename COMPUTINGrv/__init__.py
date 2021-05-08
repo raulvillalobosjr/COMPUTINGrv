@@ -33,3 +33,6 @@ def is_empty(dictionary):
 
 def has_key(dictionary, key):
 	return key in dictionary
+
+def yeah_nope(b):
+	return "yeah" if b else "nope"
