@@ -36,3 +36,11 @@ def has_key(dictionary, key):
 
 def yeah_nope(b):
 	return "yeah" if b else "nope"
+
+def runningSum(nums):
+    lst=[]
+    y=1
+    for i in nums:
+        lst.append(sum(nums[:y]))
+        y=y+1
+    return lst
