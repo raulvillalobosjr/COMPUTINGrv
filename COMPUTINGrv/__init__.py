@@ -62,3 +62,9 @@ def OR(num,num2):
 
 def check_equals(lst1, lst2):
 	return lst1 == lst2
+
+def to_number_list(lst):
+	lsti=[]
+	for i in lst:
+		lsti.append(float(i))
+	return lsti
