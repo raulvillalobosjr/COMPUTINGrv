@@ -50,3 +50,12 @@ def element_from_set(s):
 
 def cpp_txt(lst):
 	return "".join(lst[:-1])
+
+def NOT(num):
+	return not num
+
+def AND(num,num2):
+	return num and num2
+
+def OR(num,num2):
+	return num or num2
