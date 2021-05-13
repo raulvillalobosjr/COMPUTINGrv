@@ -59,3 +59,6 @@ def AND(num,num2):
 
 def OR(num,num2):
 	return num or num2
+
+def check_equals(lst1, lst2):
+	return lst1 == lst2
