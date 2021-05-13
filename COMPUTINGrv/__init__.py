@@ -44,3 +44,6 @@ def runningSum(nums):
         lst.append(sum(nums[:y]))
         y=y+1
     return lst
+
+def element_from_set(s):
+	return s.pop()
