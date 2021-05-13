@@ -68,3 +68,9 @@ def to_number_list(lst):
 	for i in lst:
 		lsti.append(float(i))
 	return lsti
+
+def last_ind(lst):
+	if len(lst) == 0:
+		return None
+	else:
+		return lst[-1]
